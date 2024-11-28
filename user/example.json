@@ -1,32 +1,28 @@
 {
   "config": {
     "user": {
-      "phone": "工学云手机号",
-      "password": "工学云密码"
+      "phone": "15112125016",
+      "password": "Qhy20040623"
     },
     "clockIn": {
       "location": {
-        "address": "四川省 · 成都市 · 高新区 · 在科创十一街附近",
-        "latitude": "34.059922",
-        "longitude": "118.277435",
-        "province": "四川省",
-        "city": "成都市",
-        "area": "高新区"
+        "address": "广东省 · 广州市 · 从化区 · 在旗杆二桥附近",
+        "latitude": "23.579266",
+        "longitude": "113.502443",
+        "province": "广东省",
+        "city": "广州市",
+        "area": "从化区"
       },
-      "imageCount": 0,
-      "description": [
-        "今天天气不错",
-        "今天天气很好",
-        "今天天气不太好"
-      ]
+      "imageCount": 1,
+      "description": ""
     },
     "reportSettings": {
       "daily": {
         "enabled": false,
-        "imageCount": 0
+        "imageCount": 1
       },
       "weekly": {
-        "enabled": true,
+        "enabled": false,
         "imageCount": 0,
         "submitTime": 4
       },
@@ -45,28 +41,28 @@
       {
         "type": "Server",
         "enabled": true,
-        "sendKey": "your_key"
+        "sendKey": "SCT264117TV2bdqsJVmND5RVmOQi9M1B37"
       },
       {
         "type": "PushPlus",
-        "enabled": true,
+        "enabled": false,
         "token": "your_token"
       },
       {
         "type": "AnPush",
-        "enabled": true,
+        "enabled": false,
         "token": "your_token",
         "channel": "通道ID,多个用英文逗号隔开",
         "to": "根据官方文档获取"
       },
       {
         "type": "WxPusher",
-        "enabled": true,
+        "enabled": false,
         "spt": "your_spt"
       },
       {
         "type": "SMTP",
-        "enabled": true,
+        "enabled": false,
         "host": "smtp服务地址",
         "port": 465,
         "username": "发件人邮箱",
